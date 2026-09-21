@@ -199,7 +199,8 @@ app.use(
   cors({
     origin: [
         "http://localhost:5173",
-        "http://localhost:3000"
+        "http://localhost:3000",
+        "https://main.dopeblgqc31ff.amplifyapp.com"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
@@ -208,6 +209,10 @@ app.use(
 app.use(cookieParser());
 
 app.use(express.json());
+
+app.get("/", (req, res) => {
+    res.send("Zerodha Clone Backend is running!");
+});
 
 app.use("/", authRoute);
 
