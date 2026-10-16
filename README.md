@@ -9,6 +9,15 @@ This project recreates selected features and workflows of an online trading
 platform. It uses a React frontend and a Node.js/Express backend to demonstrate
 full-stack application development.
 
+## Features
+
+- React-based user interface
+- Frontend and backend integration
+- REST API communication
+- MongoDB database integration
+- Organized frontend, backend, and dashboard components
+- Frontend deployment using AWS Amplify
+- 
 ## Tech Stack
 
 ### Frontend
@@ -37,3 +46,5 @@ Zerodha-Clone/
 ├── Dashboard/
 ├── Frontend/
 └── README.md
+
+
