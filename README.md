@@ -17,7 +17,7 @@ full-stack application development.
 - MongoDB database integration
 - Organized frontend, backend, and dashboard components
 - Frontend deployment using AWS Amplify
-- 
+  
 ## Tech Stack
 
 ### Frontend
